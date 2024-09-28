@@ -101,7 +101,7 @@ The dataset comprises two varieties of raisins (Keçimen and Besni) grown in Tur
 - Compared accuracy scores of all models visually using bar plots.
   
 ## Outcome
-[Result of Machine Learning Models](https://github.com/sivashankarialaganandham/Raisin_Binary_Classification/blob/main/result%20of%20ML%20models.png)
+![Result of Machine Learning Models](https://github.com/sivashankarialaganandham/Raisin_Binary_Classification/blob/main/result%20of%20ML%20models.png)
 
 ## Code
 For the complete code, kindly check out my [Google Colab](https://colab.research.google.com/drive/11LD8FaNu6Dr5xl81UR8c0jYiAdealDvH?usp=sharing) site !
