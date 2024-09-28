@@ -22,7 +22,7 @@ The dataset comprises two varieties of raisins (Keçimen and Besni) grown in Tur
 ## Table of Contents
 1. Exploratory Data Analysis (EDA)
 2. Data Cleaning
-  - Missing Values
+    - Missing Values
   - Duplicated Values
 4. Statistical Overview
   - Basic Statistics
