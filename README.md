@@ -41,63 +41,63 @@ The dataset comprises two varieties of raisins (Keçimen and Besni) grown in Tur
     - Decision Tree Classifier
 9. Comparison of Models
 
-### 1. Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA)
 - Loaded the dataset and examined its dimensions and initial records
 - Dataframe shape: df.shape
 - Displayed first and last few rows: df.head() and df.tail()
 
-### 2. Data Cleaning
-#### Missing Values
+### Data Cleaning
+1.**Missing Values**
 - There are no missing values detected in the dataset.
 
-#### Duplicated Values
+2.**Duplicated Values**
 - Checked for duplicates and confirmed there are none.
 
-### 3. Statistical Overview
-#### Basic Statistics
+### Statistical Overview
+1.**Basic Statistics**
 - Provided summary statistics of the dataset, showing data types and distributions.
 
-#### Categorical Features
+2.**Categorical Features**
 - Class distribution: df.Class.value_counts()
 
-#### Numerical Features
+3.**Numerical Features**
 - Visualized distributions of numerical features using histograms.
 
-### 4. Feature Engineering
+### Feature Engineering
 - Converted class labels to numerical values using label encoding.
 - Dropped the original class label from the dataset.
 
-### 5. Correlation Analysis
+### Correlation Analysis
 - Analyzed correlations among features and with the target variable.
 - Identified highly correlated features and their implications for modeling.
 
-### 6. Outlier Analysis
+### Outlier Analysis
 - Conducted outlier detection using box plots for individual features and by target class.
 
-### 7. Modeling
-#### Logistic Regression
+### Modeling
+1.**Logistic Regression**
 - Split dataset into training and testing sets.
 - Trained logistic regression model using Min-Max scaling.
 
-#### Model Performance
+2.**Model Performance**
 - Evaluated model using accuracy, confusion matrix, and classification report.
 
-#### Model Validation
+3.**Model Validation**
 - Conducted cross-validation to assess model reliability.
 
-#### Hyperparameter Optimization
+4.**Hyperparameter Optimization**
 - Tuned logistic regression hyperparameters using GridSearchCV for improved accuracy.
 
-#### Support Vector Machine
+5.**Support Vector Machine**
 - Implemented SVM and evaluated performance.
 
-#### K-Nearest Neighbors
+6.**K-Nearest Neighbors**
 - Tested various neighbor counts to determine optimal k.
 
-#### Decision Tree Classifier
+7.**Decision Tree Classifier**
 - Trained a decision tree model and evaluated its performance.
 
-### 7. Comparison of Models
+8.**Comparison of Models**
 - Compared accuracy scores of all models visually using bar plots.
   
 ## Outcome
